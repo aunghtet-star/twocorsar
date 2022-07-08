@@ -15,7 +15,57 @@ class TwoSeeder extends Seeder
      */
     public function run()
     {
-        for ($i=0;$i++,$i<100;){
+        DB::table('twos')->insert([
+            'two' => '00',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '01',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '02',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '03',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '04',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '05',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '06',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '07',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '08',
+            'amount' => 0
+        ]);
+
+        DB::table('twos')->insert([
+            'two' => '09',
+            'amount' => 0
+        ]);
+
+        for ($i=10;$i++,$i<100;){
             DB::table('twos')->insert([
                 'two' => $i,
                 'amount' => 0
