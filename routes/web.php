@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resource('/',TwoController::class);
+Route::get('/table',[TwoController::class,'table']);
 
 Route::get('/clean',[TwoController::class,'clean']);
 Route::post('/two-00',[TwoController::class,'form00']);
