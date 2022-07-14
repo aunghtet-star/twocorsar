@@ -65,7 +65,7 @@ class TwoSeeder extends Seeder
             'amount' => 0
         ]);
 
-        for ($i=10;$i++,$i<100;){
+        for ($i=9;$i++,$i<100;){
             DB::table('twos')->insert([
                 'two' => $i,
                 'amount' => 0
